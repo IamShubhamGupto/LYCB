@@ -35,8 +35,17 @@ For COLMAP installation, check out https://colmap.github.io/install.html
 
 
 ## Running LYCB
+1. If you are starting from a raw video (e.g. MP4) file or set of images without known camera parameters, then you will have to run `COLMAP` first to generate said parameters.
+```bash
 
+```
 Include link to NeRF2Mesh for more options / details on NeRF2Mesh
+
+
+## Acknowledgements & References
+The NeRF2Mesh framework is from Hawkeye 
+COLMAP from NVIDIA
+SAM implementation from FAIR
 
 ## LICENSE
 
