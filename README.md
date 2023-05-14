@@ -1,4 +1,3 @@
-# nerf2mesh
 <br />
 <p align="center">
 
@@ -10,7 +9,7 @@
 
 
 # Abstract
-
+![Pipeline of Leave Your Clothes Behind (LYCB)](./assets/pipeline.png)
 <p align="justify">
 
 </p>
@@ -21,8 +20,23 @@
 ## Weights and logs
 
 
-# Run
+# Getting Started
 
+## Installation
+For LYCB, `NeRF2Mesh`'s dependencies and `Segment-Anything` are key pre-requisites. Optionally, if you would like to use your own data (without prepared camera parameters), `COLMAP` will be required as well.
+
+```python
+#Installing key requirements
+pip install -r requirements.txt
+pip install git+https://github.com/facebookresearch/segment-anything.git
+```
+
+For COLMAP installation, check out https://colmap.github.io/install.html
+
+
+## Running LYCB
+
+Include link to NeRF2Mesh for more options / details on NeRF2Mesh
 
 ## LICENSE
 
