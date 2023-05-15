@@ -8,13 +8,13 @@
 </p>
 
 
-# Abstract
+## Abstract
 ![Pipeline of Leave Your Clothes Behind (LYCB)](./assets/pipeline.png)
 <p align="center">
   <b>Pipeline of Leave Your Clothes Behind (LYCB)</b>
 </p>
 
-# Results & Sample Weights
+## Results & Sample Weights
 Below is an illustration of the input / output at each stage of the pipeline with custom data.
 ![Sample output](https://github.com/IamShubhamGupto/LYCB/blob/main/assets/merged_animation.gif)
 <p align="center">
@@ -25,9 +25,9 @@ Sample data used in illustration above and the corresponding trained implicit mo
 
 
 
-# Getting Started
+## Getting Started
 
-## Installation
+### Installation
 For LYCB, `NeRF2Mesh`'s dependencies and `Segment-Anything` are key pre-requisites. Optionally, if you would like to use your own data (without prepared camera parameters), `COLMAP` will be required as well.
 
 ```python
@@ -46,7 +46,7 @@ pip install git+https://github.com/facebookresearch/segment-anything.git
 For COLMAP installation, check out https://colmap.github.io/install.html
 
 
-## Running LYCB
+### Running LYCB
 1. If you are starting from a raw video (e.g. MP4) file or set of images without known camera parameters, then you will have to run `COLMAP` first to generate said parameters. </br>
 **Note**: Dataset will need to be in the format of [nerf-synthetic](https://drive.google.com/drive/folders/1JDdLGDruGNXWnM1eqY1FNL9PlStjaKWi) or [MIP-NeRF 360](http://storage.googleapis.com/gresearch/refraw360/360_v2.zip)'s dataset. Also please do run COLMAP on the raw images (e.g. not masked clothing images) to ensure proper feature matching with COLMAP.
 ```bash
@@ -99,7 +99,7 @@ python nerf2mesh.py path/to/dataset --workspace testrun --lambda_offsets 1 --sca
 7. All done!
 
 
-# Acknowledgements & References
+## Acknowledgements & References
 The project is built on top of ashawkey's PyTorch implementation of NeRF2Mesh [here](https://github.com/ashawkey/nerf2mesh).
 
 ```
