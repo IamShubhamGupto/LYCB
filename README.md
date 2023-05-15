@@ -11,10 +11,14 @@
 # Abstract
 ![Pipeline of Leave Your Clothes Behind (LYCB)](./assets/pipeline.png)
 <p align="justify">
-
+Pipeline of Leave Your Clothes Behind (LYCB)
 </p>
 
 # Results
+![Sample output](./assets/merged_animation.gif)
+<p align="justify">
+Sample data at each stage. From left to right - Monocular input sequence, SAM extracted mask, NeRF2Mesh reconstructed mesh and test-fit with cloth simulation in Blender 
+</p>
 
 
 ## Weights and logs
