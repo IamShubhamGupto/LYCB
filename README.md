@@ -9,6 +9,9 @@
 
 
 ## Abstract
+
+The demand for assets in the virtual world as recently gained a lot of attention. We present a novel framework dubbed LYCB: Leave Your Clothes Behind that allows users to directly generate a 3D mesh object of garments from a monocular video using Neural Radiance fields. The proposed method fills the gap in literature by addressing issues such as accurately fitting on to foreign bodies for virtual try-ons and model complex cloth properties using Neural Radiance fields and physics-based simulations. This lets us transfer clothing type and bodies easily. Our code is made available at [https://github.com/IamShubhamGupto/LYCB](https://github.com/IamShubhamGupto/LYCB)
+
 ![Pipeline of Leave Your Clothes Behind (LYCB)](./assets/pipeline.png)
 <p align="center">
   <b>Pipeline of Leave Your Clothes Behind (LYCB)</b>
