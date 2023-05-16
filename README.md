@@ -4,7 +4,7 @@
   <h1 align="center">🧥LYCB: Leave Your Clothes Behind</h1>
   <h4 align="center"><a href="https://github.com/datacrisis">Keifer Lee</a>, <a href="https://github.com/iamshubhamgupto">Shubham Gupta</a>, <a href="">Karan Sharma</a></h4>
   
-  <h5 align="center">&emsp; <a href="https://iamshubhamgupto.github.io/LYCB/assets/pdf/report.pdf"> Report </a></h5>
+  <h5 align="center">&emsp; <a href="https://drive.google.com/file/d/1O0ghIOtWX4LnoUH26h_jAVWqZRlgY_Om/view"> Report </a></h5>
 </p>
 
 
