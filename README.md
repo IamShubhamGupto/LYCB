@@ -16,8 +16,10 @@
 
 ## Results & Sample Weights
 Below is an illustration of the input / output at each stage of the pipeline with custom data.
-![Sample output](https://github.com/IamShubhamGupto/LYCB/blob/main/assets/merged_animation.gif)
+
 <p align="center">
+<img src="assets/merged_animation.gif">
+
 <b>Sample data at each stage. From left to right - Monocular input sequence, SAM extracted mask, NeRF2Mesh reconstructed mesh and test-fit with cloth simulation in Blender</b>
 </p>
 
